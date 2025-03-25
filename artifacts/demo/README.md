@@ -1,5 +1,8 @@
-Replace this file with files that you would like to use for your demo. This may include
-
-- A presentation/deck in pdf or pptx format
-- A demo video (screen capture) in mp4 or other popular video formats
-- Any other document describing your solution (in pdf or md format)
+**Solution Overview:**
+Our solution aims to identify anomalies in financial transactions by analyzing historical account data. 
+We developed a robust script that reads account information from a CSV file, 
+calculates the difference between two balance fields, 
+and determines whether each transaction is a match or a break based on historical behavior. 
+Specifically, it flags accounts as anomalous when a sudden deviation is observed 
+after a consistent history of zero differences.
+The complete codebase and demo are available in the linked Git repository.
