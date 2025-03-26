@@ -1,7 +1,7 @@
 import pandas as pd
 
 # Load the CSV file
-file_path = "AnamolyCase1.csv"  # Update path if needed
+file_path = "AnamolyCase1-Input.csv"  # Update path if needed
 df = pd.read_csv(file_path)
 
 # Clean column names
